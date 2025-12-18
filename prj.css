@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    background: #222;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap:150px;
+    /* justify-content: space-between; */
+}
+.logo {
+    display: flex;
+    align-content: row;
+    align-items: center;
+}
+.navlinks {
+    display: flex;
+    gap: 15px;
+    font-size: 17px;
+}
+.navlinks a {
+    color: white;
+    text-decoration: none;
+}
+.navactions {
+    margin-left: 200px;
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.navactions a {
+    color: white;
+    text-decoration: none;
+}
+#name {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+.icons{
+    font-size: 12px;
+    margin-left: 15px;
+}
+.box {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 4px;
+    background-color: #dfe4eb;
+    border-radius: 25px;
+    border: 1px solid #020509;
+    cursor: pointer;
+    font-size: 16px;
+}
+.box {
+    outline: none;
+    background-clip: padding-box;
+}
+.box:hover {
+    background-color: #cfd6e0;
+}
+.banner {
+    margin: 40px;
+    min-height: 300px;
+    padding: 40px;
+    color: white;
+    border-radius: 20px;
+    background-image: url('banner.png');
+    background-size: cover;
+    background-position: center;
+}
+.dil {
+    display: flex;
+    gap: 150px;
+    
+    align-items: center;
+}
+.PCgames {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+.game-card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
