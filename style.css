@@ -107,8 +107,6 @@ body {
     height: 100%;
     object-fit: cover;
 }
-
-/* Hide play button (optional) */
 .play-btn {
     display: none;
 }
@@ -220,11 +218,6 @@ body {
     .banner3rd h3 {
         font-size: 18px !important;
     }
-    .banner{
-        background-image: url('banner.png');
-        background-size: cover;
-        background-position: center;
-    }
     .dil {
         flex-direction: column;
         gap: 20px;
@@ -267,5 +260,10 @@ body {
     }
     hr {
         margin: 0 20px;
+    }
+    .nonok {
+        margin-left:30px;
+        margin-right:30px;
+        justify-content: space-around;
     }
 }
