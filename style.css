@@ -14,7 +14,7 @@ body {
     align-items: center;
     text-align: center;
     gap:150px;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 .logo {
     display: flex;
@@ -31,7 +31,6 @@ body {
     text-decoration: none;
 }
 .navactions {
-    margin-left: 450px;
     display: flex;
     align-self: right;
     gap: 15px;
