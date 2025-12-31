@@ -197,7 +197,7 @@ body {
     }
     .navactions {
         gap: 0.8rem;
-        width: 38%;
+        width: 60%;
         align-items: center;
     }
     #name {
